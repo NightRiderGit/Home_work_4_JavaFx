@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox fx:controller="com.example.home_work_4.Controller_home_4" xmlns:fx="http://javafx.com/fxml"
+      alignment="center">
+    <TextArea fx:id="mainTextArea" VBox.vgrow="ALWAYS" />
+    <HBox>
+        <TextField fx:id="mainTextField" onKeyPressed="#enter" HBox.hgrow="ALWAYS" />
+        <Button onAction="#sendClick" text="ОТПРАВИТЬ" />
+    </HBox>
+</VBox>

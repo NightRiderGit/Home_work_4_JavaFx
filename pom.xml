@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>Home_work_4_JavaFx</artifactId>
+    <artifactId>Project_JavaFx</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Home_work_4_JavaFx</name>
 
@@ -60,7 +60,9 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.home_work_4_javafx/com.example.home_work_4_javafx.HelloApplication
+                            <mainClass>
+                                com.example.lesson_4_JavaFx/com.example.lesson_4_JavaFx.Main
+                                com.example.home_work_4/com.example.home_work_4.Main_home_4
                             </mainClass>
                         </configuration>
                     </execution>
